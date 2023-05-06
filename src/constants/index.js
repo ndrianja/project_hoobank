@@ -1,45 +1,45 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
-    title: "Home",
+    id: "apropos",
+    title: "A propos",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "application",
+    title: "Application",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "actualités",
+    title: "Actualité",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "témoignages",
+    title: "Témoignages",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: "shield-quarter",
+    title: "Cybersécurité",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "L'IA est utilisée pour analyser les comportements des utilisateurs et des dispositifs pour détecter les menaces et les attaques potentielles.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: "game",
+    title: "Jeux",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "L'IA est utilisée dans les jeux pour créer des adversaires virtuels intelligents qui peuvent apprendre et s'adapter aux actions du joueur.",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: "bug",
+    title: "Robots",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Les robots utilisent l'IA pour s'adapter à leur environnement et pour effectuer des tâches telles que la manipulation d'objets et la navigation dans des espaces complexes.",
   },
 ];
 
@@ -47,110 +47,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "J'ai utilisé un chatbot alimenté par l'IA pour réserver une chambre d'hôtel en ligne. Cela m'a permis de gagner du temps et de réserver rapidement et facilement.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    title: "Développeur",
     img: people01,
   },
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "J'ai utilisé un système de traduction alimenté par l'IA pour communiquer avec des collègues à l'étranger. Cela m'a permis de communiquer efficacement et de comprendre les messages avec plus de clarté.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Interprète",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "J'ai utilisé un système de reconnaissance d'image alimenté par l'IA pour trier mes photos de vacances. Cela m'a permis de trouver rapidement les photos que je cherchais et de les organiser facilement.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    title: "Designer",
     img: people03,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
-  },
-];
-
-export const footerLinks = [
-  {
-    title: "Useful Links",
-    links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
-      {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
-      },
-    ],
   },
 ];
 

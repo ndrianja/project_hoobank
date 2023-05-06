@@ -1,26 +1,19 @@
-import { card } from "../assets";
-import styles, { layout } from "../style";
-import Button from "./Button";
+import Article from "./Article";
+import styles from "../style";
 
 const CardDeal = () => (
-  <section className={layout.section}>
-    <div className={layout.sectionInfo}>
+  <>
+    <div id="actualités" className="w-full flex text-center items-center md:flex-row flex-col relative z-[1] mb-6">
       <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
+        Actualités
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-      </p>
-
-      <Button styles={`mt-10`} />
     </div>
-
-    <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
-    </div>
-  </section>
+    <section style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: "15px" }}>
+      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+    </section >
+  </>
 );
 
 export default CardDeal;
