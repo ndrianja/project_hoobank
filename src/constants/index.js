@@ -1,4 +1,4 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star } from "../assets";
+import { people01, people02, people03, facebook, instagram, linkedin, twitter } from "../assets";
 
 export const navLinks = [
   {
@@ -93,21 +93,20 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const articles = [
   {
-    id: "client-1",
-    logo: airbnb,
+    imgUrl: "/src/assets/IAbg.png",
+    date: "Sep 26, 2021",
+    text: "GPT-3 and Open  AI is the future. Let us exlore how it is?"
   },
   {
-    id: "client-2",
-    logo: binance,
+    imgUrl: "/src/assets/IAbg.png",
+    date: "Sep 26, 2021",
+    text: "GPT-3 and Open  AI is the future. Let us exlore how it is?"
   },
   {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
-];
+    imgUrl: "/src/assets/IAbg.png",
+    date: "Sep 26, 2021",
+    text: "GPT-3 and Open  AI is the future. Let us exlore how it is?"
+  }
+]

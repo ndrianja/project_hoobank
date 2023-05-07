@@ -1,5 +1,6 @@
 import Article from "./Article";
 import styles from "../style";
+import { articles } from "../constants";
 
 const CardDeal = () => (
   <>
@@ -9,9 +10,7 @@ const CardDeal = () => (
       </h2>
     </div>
     <section style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gridGap: "15px" }}>
-      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
-      <Article imgUrl="/src/assets/IAbg.png" date="Sep 26, 2021" text="GPT-3 and Open  AI is the future. Let us exlore how it is?" />
+      {articles.map((article, idxArticle) => <Article key={idxArticle} imgUrl={article.imgUrl} date={article.date} text={article.text} />)}
     </section >
   </>
 );
